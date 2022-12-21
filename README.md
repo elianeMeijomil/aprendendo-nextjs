@@ -58,3 +58,9 @@ Rodamos o app em ambiente de dev para testar
 npm run dev
 ```
 Desta vez obtendo um http://localhost:3000 pronto para ver a aplicação funcionando.
+
+...
+
+## :warning: Disclaimer
+
+As imagens usadas no exemplo de rotas imagens de produtos foram retiradas do site https://icons8.com/
