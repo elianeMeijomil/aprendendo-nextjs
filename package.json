@@ -1,0 +1,25 @@
+{
+  "name": "aprendendonext",
+  "version": "1.0.0",
+  "description": "Este projeto é a execução de um workflow para aprendizado de Next",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elianeMeijomil/aprendendoNext.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elianeMeijomil/aprendendoNext/issues"
+  },
+  "homepage": "https://github.com/elianeMeijomil/aprendendoNext#readme",
+  "dependencies": {
+    "next": "^13.0.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
