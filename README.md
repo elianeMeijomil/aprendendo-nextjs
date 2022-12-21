@@ -57,4 +57,4 @@ Rodamos o app em ambiente de dev para testar
 ```
 npm run dev
 ```
-Desta vez obtendo um http://localhost:3000 pronto para vez a aplicação funcionando.
+Desta vez obtendo um http://localhost:3000 pronto para ver a aplicação funcionando.
