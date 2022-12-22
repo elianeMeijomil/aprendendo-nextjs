@@ -27,6 +27,7 @@ function Product(){
                     <Link href="4">Product #4</Link>
                 </li>
             </ul>
+            <p>Esta página processa o productId frondEndSide</p>
         </div>
     );
 }

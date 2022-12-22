@@ -1,0 +1,1 @@
+{"c":["pages/products/[productId]","webpack"],"r":["pages/reviews/[productId]"],"m":["./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?absolutePagePath=%2Fhome%2Femeijomil%2FRepositorio%2FaprendendoNext%2Fpages%2Freviews%2F%5BproductId%5D.js&page=%2Freviews%2F%5BproductId%5D!","./pages/reviews/[productId].js"]}
