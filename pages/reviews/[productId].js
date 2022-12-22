@@ -13,7 +13,10 @@ function Review(props){
     return (
     <div> 
         <h1>Product #{props.productId} Review</h1>
-        <img src={props.productImg} />
+        <div>
+            <img src={props.productImg} className="product" />
+        </div>
+        <h2>Product list</h2>
         <ul>
                 <li>
                     <Link href="1">Product #1</Link>

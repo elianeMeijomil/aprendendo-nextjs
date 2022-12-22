@@ -1,5 +1,27 @@
-h1 {
-    background-color: chocolate;
+div#__next>div {
+    margin:1em;
+    padding:1em;
+    border:0.1em #C58940 solid;
+    max-width: 300px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: medium;
 }
+h1,h2{
+    padding:0.8em;
+    margin:auto 1em;
+    border-radius: 0.6em;
+}
+
+h1 {
+    background-color:#C58940;
+    font-size: 1.5em;
+}
+h2 {
+    background-color: #E5BA73;
+    font-size:1.2em;
+}    
+img.product {margin:1.2em auto; display: block;}
+ul {padding:0;margin:0; list-style: none;}
+ul li {padding:1em;margin:0.3em 1.2em;background-color:#FAEAB1;border-radius: 0.6em;}
+ul li a { text-decoration: none; display: block; margin:auto; font-size: 1.2em; font-weight: bold; color:#C58940; }
+
+p {font-size:0.8em;text-align: center;}

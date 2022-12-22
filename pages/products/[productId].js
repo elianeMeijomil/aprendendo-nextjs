@@ -8,11 +8,11 @@ function Product(){
     return (
         <div>
             <h1>Product #{productId}</h1>
-            <h2>Product list</h2>
             <div>
-                
-                <img src={productImg}/>
+                <img src={productImg} className="product" />
             </div>
+            
+            <h2>Product list</h2>
             <ul>
                 <li>
                     <Link href="1">Product #1</Link>
