@@ -11,13 +11,13 @@ Os primeiros passos para criação deste repositório e preparação do ambiente
 2. Clonagem do repositório no VS Code para começar os trabalhos :)
 
   ```bash
-  git clone https://github.com/elianeMeijomil/aprendendoNext.git
+  $ git clone https://github.com/elianeMeijomil/aprendendoNext.git
   ```
 
 3. Levando em consideração que o node.js já está configurado na máquina, usando o terminal no próprio VS Code
 
   ```bash
-  npm init -y
+  $ npm init -y
   ```
 O que gera o arquivo *package.json*
 
@@ -26,7 +26,7 @@ O que gera o arquivo *package.json*
 No caso o next.js, o react e o react-dom 
 
   ```bash
-  npm install next react react-dom
+  $ npm install next react react-dom
   ```
 Esta ação gera o arquivo package-lock.json e a pasta node_modules com todos os arquivos de dependencia dentro dela.
 
@@ -36,7 +36,7 @@ Incluir uma propriedade em scripts chamada "dev" contendo a string "next dev" de
 Isso será chamado quando subir o server node em ambiende dev, fazendo o next subir junto e rodar o primeiro debug.
 
   ```bash
-  npm run dev
+  $ npm run dev
   ```
 :warning: Ao rodar isso pela primeira vez vai dar erro. Por isso você vai continuar para o sexto passo :wink:
 
@@ -45,8 +45,8 @@ Isso será chamado quando subir o server node em ambiende dev, fazendo o next su
 Vamos resolver este problema adicionando novas páginas ao projeto.
 
   ```bash
-  mkdir pages
-  touch pages/index.js
+  $ mkdir pages
+  $ touch pages/index.js
   ```
 :memo: O primeiro arquivo index.js foi criado, mas caso queira usar TypeScript use a extensão .ts e assim por diante
 
@@ -55,7 +55,7 @@ Vamos resolver este problema adicionando novas páginas ao projeto.
 8. Rodamos o app em ambiente de dev para testar
 
   ```bash
-  npm run dev
+  $ npm run dev
   ```
 Desta vez obtendo um http://localhost:3000 pronto para ver a aplicação funcionando.
 
